@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+:root {
+    --cor-primaria: #03001C;
+    --cor-segundaria:#5B8FB9;
+    --cor-terciaria:#6F1AB6;
+    --cor-hover: #B6EADA;
+
+
+    --fonte-primaria: 'Krona One' , 'sans-serif';
+    --fonte-segundaria:'montserrat', sans-serif;
+    
+    
+}
+
+* {
+    margin: 0;
+    padding: 0%;
+}
+body {
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color:var(--cor-segundaria);
+    
+}
+
+.cabecalho {
+ padding: 2% 0% 0% 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu_link {
+    font-family: var(--fonte-segundaria);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--cor-terciaria);
+    text-decoration: none;
+
+}
+
+.apresentacao {
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.apresentacao__conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.apresentacao__conteudo_titulo {
+    font-size: 36px;
+    font-family: var(--fonte-primaria);
+
+    
+}
+
+.titulo-destaque {
+    color: var(--cor-terciaria); 
+}
+
+.apresentacao__conteudo_texto {
+    font-size: 24px;
+    font-family: var(--fonte-segundaria);
+}
+
+.apresentacao__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresetacao__links_subtitulo {
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.apresentacao__links__link {
+    display: flex;
+    justify-content:  center;
+    gap: 16px;
+    /* background-color: #22D4FD; */
+    border: 2px solid var(--cor-terciaria);
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0px;
+    text-decoration: none;
+    color:var(--cor-segundaria);
+    font-family: var(--fonte-segundaria)
+    
+}
+
+.apresentacao__links__link:hover {
+ background-color: var(--cor-hover);
+
+}
+.rodape {
+    padding: 24px;
+    color: var(--cor-primaria);
+    background-color:var(--cor-terciaria);
+    text-align: center;
+    font-family: var(--fonte-segundaria);
+    font-weight: 400;
+   
+
+}
